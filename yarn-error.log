@@ -1,0 +1,56 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\hltis\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Ruby27-x64\bin;C:\Users\hltis\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\JetBrains Rider 2021.3.3\bin;C:\Users\hltis\AppData\Roaming\npm;C:\Users\hltis\AppData\Local\gitkraken\bin;C:\tools\dart-sdk\bin;C:\Users\hltis\AppData\Roaming\Pub\Cache\bin;C:\tools\flutter\bin;;C:\Program Files\JetBrains\DataGrip 2021.3.4\bin;;C:\Users\hltis\.dotnet\tools
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  17.4.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.19.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "remix-app-template",
+    "private": true,
+    "description": "",
+    "license": "",
+    "sideEffects": false,
+    "scripts": {
+      "build": "cross-env NODE_ENV=production remix build",
+      "dev": "cross-env NODE_ENV=development remix dev",
+      "postinstall": "remix setup node",
+      "start": "cross-env NODE_ENV=production remix-serve build"
+    },
+    "dependencies": {
+      "@remix-run/react": "^1.2.2",
+      "@remix-run/serve": "^1.2.2",
+      "cross-env": "^7.0.3",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "remix": "^1.2.2"
+    },
+    "devDependencies": {
+      "@remix-run/dev": "^1.2.2",
+      "@types/react": "^17.0.24",
+      "@types/react-dom": "^17.0.9",
+      "typescript": "^4.5.5"
+    },
+    "engines": {
+      "node": ">=14"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
